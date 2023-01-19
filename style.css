@@ -96,9 +96,29 @@ ul {
 
 .info-4 {
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.internal-container {
+    display: flex;
+}
+
+.internal-left {
+    display: flex;
+    flex-direction: column;
 }
 
 /* .call-to-action {
+
+}
+
+.c-2-a-signup {
+
+} */
+
+/* .internal-right {
 
 } */
 
