@@ -113,30 +113,34 @@ ul {
 
 .internal-container {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #3882f6;
     height: auto;
     width: 600px;
     border-radius: 5px;
-    padding: 30px 40px;
+    padding: 25px 65px;
 
 }
 
 .internal-left {
     display: flex;
     flex-direction: column;
-}
-
-/* .call-to-action {
-
+    color: #e5e7eb;
 }
 
 .c-2-a-signup {
+    font-size: 12px;
+}
 
-} */
-
-/* .internal-right {
-
-} */
+.internal-right {
+    color: white;
+    background-color: #3882f6;
+    border: solid;
+    border-color: #e5e7eb;
+    border-radius: 3px;
+    padding: 3px 20px;
+}
 
 .footer {
     background-color: #1f2937;
