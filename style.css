@@ -66,9 +66,15 @@ ul {
     justify-content: center;
 }
 
-/* .box {
-    
-} */
+.box {
+    height: 100px;
+    width: 100px;
+    margin: 0;
+    border: solid;
+    border-radius: 20%;
+    border-color: #3882f6;
+    border-width: 3px;
+}
 
 .info-3 {
     background-color: #e5e7eb;
