@@ -2,6 +2,7 @@
 body {
     margin: 0;
     height: 100vh;
+    font-family: sans-serif;
 }
 
 .body-container {
@@ -94,13 +95,24 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
+.internal-info3 {
+    display: flex;
+    flex-direction: column;
 }
 
 .inspiring-quote {
     font-size: 36px;
+    width: 825px;
     color: #1f2937;
-    font-style: light italic;
+    font-style: italic;
+}
+
+.quote-author {
+    align-self: flex-end;
+    color: #1f2937;
+    font-weight: bold;
 }
 
 .info-4 {
