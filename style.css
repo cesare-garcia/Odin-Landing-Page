@@ -103,6 +103,13 @@ ul {
 
 .internal-container {
     display: flex;
+    border: solid;
+    background-color: #3882f6;
+    height: auto;
+    width: 600px;
+    /* border-radius: 10%; */
+    padding: 30px 40px;
+
 }
 
 .internal-left {
