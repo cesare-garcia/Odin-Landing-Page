@@ -31,11 +31,13 @@ ul {
     background-color: #1f2937;
     color: white;
     display: flex;
+    padding: 40px;
 }
 
 .intro-container {
     display: flex;
     flex-direction: column;
+    width: 400px;
 }
 
 .intro-dec {
@@ -49,17 +51,23 @@ ul {
     color: #e5e7eb;
 }
 
-/* .intro-img {
-
-} */
+.intro-img {
+    width: 400px;
+    height: 150px;
+    background-color: grey;
+}
 
 .info-2 {
     background-color: white;
     display: flex;
     flex-direction: column;
+    padding: 40px;
 }
 
 .some-random {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
     display: flex;
     justify-content: center;
 }
@@ -103,11 +111,10 @@ ul {
 
 .internal-container {
     display: flex;
-    border: solid;
     background-color: #3882f6;
     height: auto;
     width: 600px;
-    /* border-radius: 10%; */
+    border-radius: 5px;
     padding: 30px 40px;
 
 }
