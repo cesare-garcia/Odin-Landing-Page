@@ -61,8 +61,16 @@ ul {
 .info-2 {
     background-color: white;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 60px;
+}
+
+.internal-info2 {
+    display: flex;
     flex-direction: column;
-    padding: 40px;
+    gap: 25px;
 }
 
 .some-random {
@@ -76,7 +84,8 @@ ul {
 .four-box {
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding: 0;
+    gap: 30px;
 }
 
 .box {
@@ -87,6 +96,12 @@ ul {
     border-radius: 20%;
     border-color: #3882f6;
     border-width: 3px;
+}
+
+.box-text {
+    width: 100px;
+    font-size: 12px;
+    text-align: center;
 }
 
 .info-3 {
